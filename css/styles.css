@@ -2,6 +2,9 @@
   display: inline;
 }
 
+.badge {
+  background-color: maroon;
+}
 /*ul.mail {
   list-style-type: glyphicon glyphicon-envelope;
 }*/
