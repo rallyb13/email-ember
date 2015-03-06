@@ -5,10 +5,10 @@ Bmail.NewEmailController = Ember.Controller.extend({
         isFrom: this.get('isFrom'),
         isTo: this.get('isTo'),
         subject: this.get('subject'),
-        message: this.get('message')
-        // folder: this.set("inbox")
-        // timer: this.set(Date.now()),
-        // showDate: this.set(new Date())
+        message: this.get('message'),
+        folder: "inbox",
+        timer: Date.now(),
+        showDate: (new Date()).toString()
       });
       newEmail.save();
       this.transitionToRoute('emails');
