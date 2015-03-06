@@ -8,6 +8,8 @@
 
 <ul class="file">
   {{#each}}
-    <li>{{name}}</li>
+    {{#link-to 'folder' this.id}}
+      <li>{{name}}</li>
+    {{/link-to}}
   {{/each}}
 </ul>
