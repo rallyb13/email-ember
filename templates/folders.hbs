@@ -1,0 +1,13 @@
+<h4>Keep organized</h4>
+{{#link-to 'new-folder'}}
+  <button class="btn btn-xs btn-info">Add New?</button>
+{{/link-to}}
+
+{{outlet}}
+
+
+<ul class="file">
+  {{#each}}
+    <li>{{name}}</li>
+  {{/each}}
+</ul>
