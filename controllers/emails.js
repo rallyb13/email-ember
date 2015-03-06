@@ -1,6 +1,6 @@
 Bmail.EmailsController = Ember.ArrayController.extend({
-  // sortProperties: ['id'],
-  // sortAscending: false,
+  sortProperties: ['timer'],
+  sortAscending: false,
   actions: {
 
   }

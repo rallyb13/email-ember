@@ -1,10 +1,22 @@
+.navbar h3{
+  text-align: center;
+}
+
+
+
+/********** on emailS/main page */
+
 .form-popper {
   display: inline;
 }
 
+ul.mail {
+  list-style-image: url('mail.gif');
+}
+
+
+/********** on email display page */
+
 .badge {
   background-color: maroon;
 }
-/*ul.mail {
-  list-style-type: glyphicon glyphicon-envelope;
-}*/
