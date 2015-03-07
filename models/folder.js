@@ -1,3 +1,4 @@
 Bmail.Folder = DS.Model.extend({
-  name: DS.attr()
+  name: DS.attr(),
+  emails: DS.hasMany('email', {async: true})
 });

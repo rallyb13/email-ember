@@ -1,4 +1,5 @@
 Bmail.NewEmailController = Ember.Controller.extend({
+
   actions: {
     send: function() {
       var newEmail = this.store.createRecord('email', {
@@ -6,7 +7,6 @@ Bmail.NewEmailController = Ember.Controller.extend({
         isTo: this.get('isTo'),
         subject: this.get('subject'),
         message: this.get('message'),
-        folder: "inbox",
         timer: Date.now(),
         showDate: (new Date()).toString()
       });
